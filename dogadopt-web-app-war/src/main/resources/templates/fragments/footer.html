@@ -1,0 +1,22 @@
+<thymeleaf xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" 
+    th:fragment="footer" th:remove="tag">
+    
+    <div id="menuValue" style="display:none;" th:text="${menuOption}">menuOption</div>
+    
+    <script>
+	    $(document).ready(function() {
+	        $('#dataTable').DataTable({
+	            responsive: true,
+	            "order": [[ 0, 'desc' ]]
+	        });
+	        $("#menuOption" + $('#menuValue').html()).addClass("active");
+	    });
+	    
+		function goBack() {
+			window.history.back();
+		}
+		
+
+    </script>
+    
+</thymeleaf>
