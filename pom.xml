@@ -5,7 +5,7 @@
 	<groupId>com.lauriano.dogadopt</groupId>
 	<artifactId>dogadopt-web-app</artifactId>
 	<name>dogadopt-web-app</name>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<description>Dogadopt web application</description>
 	<inceptionYear>2016</inceptionYear>
 	<packaging>pom</packaging>
